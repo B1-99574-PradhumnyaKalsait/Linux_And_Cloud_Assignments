@@ -1,0 +1,37 @@
+2026-09-11 17:45:44 | INFO | Scan started for directory: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting
+2026-09-11 17:45:44 | INFO | Execution time (seconds): 0.000786
+2026-09-11 17:45:44 | INFO | Scanned files: 13
+2026-09-11 17:45:44 | INFO | Skipped files: 0
+2026-09-11 17:45:44 | INFO | Duplicate groups: 0
+2026-09-11 17:45:44 | INFO | Duplicates deleted: 0
+2026-09-11 17:46:03 | ERROR | Directory Not Exists: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/man
+2026-09-11 17:53:10 | INFO | Scan started for directory: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting
+2026-09-11 17:53:10 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f9.txt
+2026-09-11 17:53:10 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f4.txt
+2026-09-11 17:53:10 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f8.txt
+2026-09-11 17:53:10 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f6.txt
+2026-09-11 17:53:10 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f10.txt
+2026-09-11 17:53:10 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f2.txt
+2026-09-11 17:53:10 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f7.txt
+2026-09-11 17:53:10 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f5.txt
+2026-09-11 17:53:10 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f1.txt
+2026-09-11 17:53:10 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f3.txt
+2026-09-11 17:53:10 | INFO | Execution time (seconds): 0.002040
+2026-09-11 17:53:10 | INFO | Scanned files: 24
+2026-09-11 17:53:10 | INFO | Skipped files: 0
+2026-09-11 17:53:10 | INFO | Duplicate groups: 1
+2026-09-11 17:53:10 | INFO | Duplicates deleted: 10
+2026-09-11 17:54:38 | INFO | Scan started for directory: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting
+2026-09-11 17:54:38 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f8.txt
+2026-09-11 17:54:38 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f6.txt
+2026-09-11 17:54:38 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f10.txt
+2026-09-11 17:54:38 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f7.txt
+2026-09-11 17:54:38 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f5.txt
+2026-09-11 17:54:38 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f2.txt
+2026-09-11 17:54:38 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f1.txt
+2026-09-11 17:54:38 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/f3.txt
+2026-09-11 17:54:38 | INFO | Execution time (seconds): 0.003104
+2026-09-11 17:54:38 | INFO | Scanned files: 24
+2026-09-11 17:54:38 | INFO | Skipped files: 0
+2026-09-11 17:54:38 | INFO | Duplicate groups: 2
+2026-09-11 17:54:38 | INFO | Duplicates deleted: 8

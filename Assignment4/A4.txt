@@ -1,0 +1,5 @@
+4. List the contents of the subdirectory.
+	List the contents of the subdirectory.pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop$ ls -r
+	'New folder (2)'                    'GMRT Final'
+	 Linux-Programming-Cloud-Computing   Assignment2
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop$ 

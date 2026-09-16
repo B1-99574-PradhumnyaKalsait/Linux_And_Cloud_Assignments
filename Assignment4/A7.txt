@@ -1,0 +1,58 @@
+7. Create directory structure : Give following commands ,
+-> mkdir one
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2$ mkdir -v one
+	mkdir: created directory 'one'
+> cd one
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2$ man cd
+	No manual entry for cd
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2$ cd one\
+-> touch 1.txt 11.txt 111.txt
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one$ touch 1.txt 11.txt 111.txt
+-> mkdir two
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one$ mkdir two
+-> cd two
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one$ cd two
+-> touch 2.txt 22.txt 222.txt
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two$ touch 2.txt 22.txt 222.txt
+-> mkdir three
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two$ mkdir three
+-> cd three
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two$ cd three
+-> touch 3.txt 33.txt 333.txt
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two/three$ touch 3.txt 33.txt 333.txt
+-> mkdir four
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two/three$ cd four
+	bash: cd: four: No such file or directory
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two/three$ mkdir four
+-> cd four
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two/three$ cd four
+-> touch 4.txt 44.txt 444.txt
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two/three/four$ touch 4.txt 44.txt 444.txt
+-> mkdir five
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two/three/four$ mkdir five
+-> cd five
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two/three/four$ cd five
+-> touch 5.txt 55.txt 555.txt
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two/three/four/five$ touch 5.txt 55.txt 555.txt
+
+-> cd ~ (i.e. go to your home directory)
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two/three/four/five$ cd ~
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ 
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

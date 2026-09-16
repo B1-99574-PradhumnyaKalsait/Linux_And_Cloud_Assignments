@@ -1,0 +1,10 @@
+List directory contents along with their inode no. (man
+ls)
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop$ ls -la -i
+total 24
+3145782 drwxr-xr-x  6 pradhumnya-kalsait pradhumnya-kalsait 4096 Aug 29 14:48  .
+3145730 drwxr-x--- 22 pradhumnya-kalsait pradhumnya-kalsait 4096 Aug 29 14:49  ..
+3165566 drwxrwxr-x  2 pradhumnya-kalsait pradhumnya-kalsait 4096 Aug 29 12:57  Assignment2
+3322659 drwxrwxr-x  5 pradhumnya-kalsait pradhumnya-kalsait 4096 Jan 25  2026 'GMRT Final'
+3145828 drwxrwxr-x  4 pradhumnya-kalsait pradhumnya-kalsait 4096 Aug 29 08:28  Linux-Programming-Cloud-Computing
+3185107 drwxr-xr-x  5 pradhumnya-kalsait pradhumnya-kalsait 4096 Dec 10  2025 'New folder (2)'

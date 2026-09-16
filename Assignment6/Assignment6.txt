@@ -1,0 +1,88 @@
+reate a file named "data.txt" and write the following lines in it(write as it is).
+Linux is open source.
+In Linux everything is file
+files have permissions.
+files have inode no.
+files have size.
+there are several types of files
+compose the commands fulfilled following requirement
+
+1.count the no. of words ,characters and lines from above 2 file.(man wc)
+    Cloud_Computing/Assignment_to_push/assignment6$ wc -l -w data.txt 
+    6  25 data.txt
+
+
+2.list the lines having word "files" (man grep)
+    Pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/assignment6$ grep "files" data.txt
+    files have permissions.
+    files have inode no.
+    files have size.
+    there are several types of files
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/assignment6$ 
+
+
+
+3.list the lines having word "file" (man grep)
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/assignment6$ grep "file" data.txt
+    In Linux everything is file
+    files have permissions.
+    files have inode no.
+    files have size.
+    there are several types of files
+
+
+
+4.list the lines which don't have word "files" (man grep)
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/assignment6$ grep -v "files" data.txt 
+    Linux is open source.
+    In Linux everything is file
+
+
+
+5.list the lines having word "have" . (man grep)
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/assignment6$ grep "have" data.txt
+    files have permissions.
+    files have inode no.
+    files have size.
+
+
+
+6.list the lines starts with letter "f" (man grep)
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/assignment6$ grep "^f" data.txt
+    files have permissions.
+    files have inode no.
+    files have size.
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/assignment6$ 
+
+
+7.list the lines ends with "." (man grep)
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/assignment6$ man grep
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/assignment6$ grep "\." data.txt
+    Linux is open source.
+    files have permissions.
+    files have inode no.
+    files have size.
+
+
+
+8.list only first two lines.(man head)
+    Pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/assignment6$ head -2 data.txt 
+    Linux is open source.
+    In Linux everything is file
+
+
+
+9.list only last three lines.(man tail)
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/assignment6$ tail -3 data.txt 
+    files have inode no.
+    files have size.
+    there are several types of files
+
+
+
+10.list line no.3,4 and 5 . (man head and tail)
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/assignment6$ tail -3 data.txt 
+    files have inode no.
+    files have size.
+    there are several types of files
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/assignment6$ 

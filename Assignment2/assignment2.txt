@@ -1,0 +1,36 @@
+a. View the contents of a file named "my_file.txt".
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ cd Desktop/
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop$ cd Linux-Programming-Cloud_Computing/
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing$ cd Assignment_to_push/
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push$ cd Assignment2
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment2$ ls
+2_Linux_Commands_Assignment_2.pdf  my_other_file.txt
+my_file.txt                        my_third_file.txt
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment2$ cat ->> my_file.txt 
+hello this is cat inside my file.txt
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment2$ cat my_file.txt 
+hello this is cat inside my file.txt
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment2$
+
+
+b. View the contents of a file named "my_other_file.txt" and number the lines.
+
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment2$ man cat
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment2$ cat -b my_other_file.txt 
+     1	hello this is my other file
+     2	where im writing the code 
+     3	please lookup the files
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment2$ cat -n my_other_file.txt 
+     1	hello this is my other file
+     2	where im writing the code 
+     3	please lookup the files
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment2$ 
+
+Cloud_Computing/Assignment_to_push/Assignment2$  man cat
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment2$ cat ->> my_third_file.txt 
+hello this is my thord dir im writing in just read the contents via cat ... such funny thing that im messing with ha ha ha
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment2$ cat my_third_file.txt 
+Cloud_Computing/Assignment_to_push/Assignment2$  man cat
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment2$ cat ->> my_third_file.txt 
+hello this is my thord dir im writing in just read the contents via cat ... such funny thing that im messing with ha ha ha
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment2$ cat my_third_file.txt 

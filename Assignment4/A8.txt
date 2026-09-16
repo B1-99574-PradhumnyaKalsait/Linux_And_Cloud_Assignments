@@ -1,0 +1,63 @@
+8. Considering above directory structure , Do following
+	operations :
+	i. list the directory contents of directory named
+		"five" from current directory (i.e. home directory).
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2$ cd ~
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ ls -la Desktop/Assignment2/one/two/three/four/five/
+		total 8
+		drwxrwxr-x 2 pradhumnya-kalsait pradhumnya-kalsait 4096 Aug 29 15:47 .
+		drwxrwxr-x 3 pradhumnya-kalsait pradhumnya-kalsait 4096 Aug 29 15:46 ..
+		-rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait    0 Aug 29 15:47 555.txt
+		-rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait    0 Aug 29 15:47 55.txt
+		-rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait    0 Aug 29 15:47 5.txt
+	ii. write your name in a file named "44.txt" of directory "four" from current directory.
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ cat >> Desktop/Assignment2/one/two/three/four/44.txt
+		Name : Pradhumnya
+
+	iii. remove the file named "555.txt" from directory
+		"five" from current directory.
+			pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ rm Desktop/Assignment2/one/two/three/four/five/555.txt
+	
+	iv. change directory to five (one/two/three/four/five/ )
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ cd Desktop/Assignment2/one/two/three/four/five
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two/three/four/five$ 
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ cd Desktop/Assignment2/one/two/three/four/five
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two/three/four/five$ 
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two/three/four/five$ cat >> ../../3.txt
+		Course Name : PGCP BDA
+		
+	v. write your course name in file named "3.txt" which
+	resides in directory "three" from current directory (i.e.
+	five).also read the same file.
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ cat > Desktop/Assignment2/one/two/three/3.txt
+		Course : BDA 
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ cat Desktop/Assignment2/one/two/three/3.txt
+		Course : BDA 
+
+	vi. list the contents of directory "two" from current
+	directory (i.e. five).
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two/three/four/five$ ls -ls ../../../
+		total 4
+		0 -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait    0 Aug 29 15:43 222.txt
+		0 -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait    0 Aug 29 15:43 22.txt
+		0 -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait    0 Aug 29 15:43 2.txt
+		4 drwxrwxr-x 3 pradhumnya-kalsait pradhumnya-kalsait 4096 Aug 29 15:45 three
+
+	vii. remove file named "222.txt" which belongs to
+	directory "two" from current directory (i.e. five)
+		alsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two/three/four/five$ rm ../../../222.txt
+	viii. now change the directory to "one"
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one/two/three/four/five$ cd ../../../..
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one$ 
+	remove all files only from directory named "five"
+	from current directory (i.e. one)
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one$ rm -rf two/three/four/five
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one$ 
+	xi. remove whole directory named "four" from current
+	directory (i.e. one)
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one$ rm -rf two/three/four
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one$ rm -rf two/three/four
+	xii. change to your home directory.
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2/one$ cd ~
+		pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ 
+	

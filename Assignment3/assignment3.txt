@@ -1,0 +1,120 @@
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing$ cd Assignment_to_push/
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push$ mkdir -v Assignment3
+mkdir: created directory 'Assignment3'
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push$ cd Assignment3
+
+
+
+
+
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ mkdir -v my_dir
+mkdir: created directory 'my_dir'
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ mkdir -v my_dir/our_dir
+mkdir: created directory 'my_dir/our_dir'
+
+
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ man mkdir
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ mkdir -v my_dir/our_dir/.new_dirmkdir: created directory 'my_dir/our_dir/.new_dir'
+
+
+
+
+
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ mkdir -v pictures/friends
+mkdir: cannot create directory ‘pictures/friends’: No such file or directory
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ mkdir -v pictures
+mkdir: created directory 'pictures'
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ mkdir -v pictures/friends pictures/family pictures/vacation
+mkdir: created directory 'pictures/friends'
+mkdir: created directory 'pictures/family'
+mkdir: created directory 'pictures/vacation'
+
+
+
+
+
+
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ ls -r
+pictures  my_dir
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ cd ..
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push$ ls -r
+README.md               Assignment4  Assignment.3
+Assignment_7-Scripting  Assignment3  Assignment2
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push$ cd Assignment3/
+
+
+
+
+
+
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ ls -r
+pictures  my_dir
+
+
+
+
+
+
+
+
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ tree
+Command 'tree' not found, but can be installed with:
+sudo snap install tree  # version 2.1.3+pkg-5852, or
+sudo apt  install tree  # version 2.1.1-2ubuntu3.24.04.2
+See 'snap info tree' for additional versions.
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ sudo apt update
+[sudo] password for pradhumnya-kalsait: 
+Get:1 https://dl.google.com/linux/chrome/deb stable InRelease [2,548 B]
+Get:2 https://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1,409 B]
+Hit:3 http://archive.ubuntu.com/ubuntu noble InRelease                         
+Get:4 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Hit:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease               
+Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1,262 kB]
+Ign:7 http://security.ubuntu.com/ubuntu noble-security InRelease               
+Ign:7 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:7 http://security.ubuntu.com/ubuntu noble-security InRelease
+Fetched 1,392 kB in 2min 33s (9,111 B/s)
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+553 packages can be upgraded. Run 'apt list --upgradable' to see them.
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ sudo install tree
+install: missing destination file operand after 'tree'
+Try 'install --help' for more information.
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ tree
+Command 'tree' not found, but can be installed with:
+sudo snap install tree  # version 2.1.3+pkg-5852, or
+sudo apt  install tree  # version 2.1.1-2ubuntu3.24.04.2
+See 'snap info tree' for additional versions.
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ sudo apt install tree
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  tree
+0 upgraded, 1 newly installed, 0 to remove and 553 not upgraded.
+Need to get 47.4 kB of archives.
+After this operation, 111 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 tree amd64 2.1.1-2ubuntu3.24.04.2 [47.4 kB]
+Fetched 47.4 kB in 24s (1,985 B/s)
+Selecting previously unselected package tree.
+(Reading database ... 229323 files and directories currently installed.)
+Preparing to unpack .../tree_2.1.1-2ubuntu3.24.04.2_amd64.deb ...
+Unpacking tree (2.1.1-2ubuntu3.24.04.2) ...
+Setting up tree (2.1.1-2ubuntu3.24.04.2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
+
+
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ tree
+.
+├── my_dir
+│   └── our_dir
+└── pictures
+    ├── family
+    ├── friends
+    └── vacation
+
+7 directories, 0 files
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment3$ 
+

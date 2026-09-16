@@ -1,0 +1,100 @@
+Objective: To learn and practice the "cp & mv" commands in Linux.
+Instructions:
+
+
+Assignment 1 - Using the "cp" command:
+1. Create a directory called "my_files" in your home directory.
+        pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment5$ cd ~
+        pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ mkdir -v myfiles
+        mkdir: created directory 'myfiles'
+
+
+
+2. Create three text files named "file1.txt", "file2.txt", and "file3.txt" in the "my_files"
+directory. ( Use Command “touch” )
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ cd myfiles/
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/myfiles$ touch file{1..5}.txt
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/myfiles$ ls 
+    file1.txt  file2.txt  file3.txt  file4.txt  file5.txt
+
+
+
+3. Create a directory called "backup" in the "my_files" directory.
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/myfiles$ mkdir -v backup
+    mkdir: created directory 'backup'
+
+4. Use the "cp" command to make a backup of "file1.txt" and "file2.txt" in the "backup"
+directory.
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/myfiles$ cp file1.txt file2.txt backup
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/myfiles$ ls -lh backup/
+    total 0
+    -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait 0 Sep 11 15:24 file1.txt
+    -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait 0 Sep 11 15:24 file2.txt
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/myfiles$ 
+
+
+5. Use the "cp" command to copy "file3.txt" to your desktop.
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/myfiles$ cp file3.txt ~/Desktop
+
+6. Copy “my_files” directory in home directory with the name “my_old_files”. ( Hint : -R )
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ ls -lh my_otherfiles/
+    total 4.0K
+    drwxrwxr-x 2 pradhumnya-kalsait pradhumnya-kalsait 4.0K Sep 11 15:29 backup
+    -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait    0 Sep 11 15:29 file1.txt
+    -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait    0 Sep 11 15:29 file2.txt
+    -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait    0 Sep 11 15:29 file3.txt
+    -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait    0 Sep 11 15:29 file4.txt
+    -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait    0 Sep 11 15:29 file5.txt
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ 
+
+7. Copy “backup” directory in your home directory .
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ cd myfiles/
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/myfiles$ cp backup -R ~
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/myfiles$ cd ..
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ ls -lh backup/
+    total 0
+    -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait 0 Sep 11 15:31 file1.txt
+    -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait 0 Sep 11 15:31 file2.txt
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ 
+
+
+
+
+
+
+
+Assignment 2 - Using the "mv" command:
+
+
+1. Create a directory called "my_music" in your home directory.
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ mkdir -v my_music
+    mkdir: created directory 'my_music'
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ 
+
+
+2. Create 3 files with the name song_1.mp3 , song_2.mp3, song_3.mp3 and save them in the
+"my_music" directory.
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~$ cd my_music
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/my_music$ touch song{1..5}.mp3
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/my_music$ ls -lh
+    total 0
+    -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait 0 Sep 11 15:33 song1.mp3
+    -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait 0 Sep 11 15:33 song2.mp3
+    -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait 0 Sep 11 15:33 song3.mp3
+    -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait 0 Sep 11 15:33 song4.mp3
+    -rw-rw-r-- 1 pradhumnya-kalsait pradhumnya-kalsait 0 Sep 11 15:33 song5.mp3
+
+3. Create a subdirectory called "old_music" in the "my_music" directory.
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/my_music$ mkdir -v old_music
+    mkdir: created directory 'old_music'
+
+
+4. Use the "mv" command to move the file song_1.mp3 to the "old_music" directory.
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/my_music$ mv song1.mp3 song2.mp3 old_music/
+
+5. Use the "mv" command to rename one of the song_3.mp3 files to "new_song_3.mp3".
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/my_music$ mv song5.mp3 oldsong.mp
+
+
+6. Use the "mv" command to move the "song_2.mp3" file to your desktop.
+    pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/my_music$ mv song4.mp3 ~/Desktop/

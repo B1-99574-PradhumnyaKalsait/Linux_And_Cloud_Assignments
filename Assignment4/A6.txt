@@ -1,0 +1,5 @@
+6. how to change the time stamp of file (man touch)
+	-t STAMP
+		      use [[CC]YY]MMDDhhmm[.ss] instead of current time
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2$ touch A6.txt -t 11301130
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2$ touch A6_sample.txt -t 11301130

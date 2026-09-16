@@ -1,0 +1,14 @@
+5. Create a file, write your surname and name in it and
+save.
+i. now open the same file and add your address in it and
+save.
+ii. reopen the same file and check your name and address in
+it.\n
+
+
+Output
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2$ cat >> A5_Sample.txt
+Name : Kalsait
+pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop/Assignment2$ cat A5_Sample.txt 
+Name : Kalsait
+Address : KaleBorateNagar , Hadapsar , Pune - 411028

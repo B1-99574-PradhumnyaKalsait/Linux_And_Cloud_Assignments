@@ -1,0 +1,11 @@
+List the directory contents size wise sorted.(man ls)
+	pradhumnya-kalsait@pradhumnya-kalsait-Latitude-5420:~/Desktop$ ls -la --sort size
+	total 32
+	drwxr-xr-x  8 pradhumnya-kalsait pradhumnya-kalsait 4096 Aug 29 12:33  .
+	drwxr-x--- 22 pradhumnya-kalsait pradhumnya-kalsait 4096 Feb 20  2026  ..
+	drwxrwxr-x  2 pradhumnya-kalsait pradhumnya-kalsait 4096 Aug 29 12:28  2
+	drwxrwxr-x  2 pradhumnya-kalsait pradhumnya-kalsait 4096 Aug 29 12:28  Assignment
+	drwxrwxr-x  2 pradhumnya-kalsait pradhumnya-kalsait 4096 Aug 29 12:41  Assignment2
+	drwxrwxr-x  5 pradhumnya-kalsait pradhumnya-kalsait 4096 Jan 25  2026 'GMRT Final'
+	drwxrwxr-x  4 pradhumnya-kalsait pradhumnya-kalsait 4096 Aug 29 08:28  Linux-Programming-Cloud-Computing
+	drwxr-xr-x  5 pradhumnya-kalsait pradhumnya-kalsait 4096 Dec 10  2025 'New folder (2)'

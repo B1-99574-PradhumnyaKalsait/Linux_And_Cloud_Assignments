@@ -1,0 +1,7 @@
+2026-09-15 07:29:04 | INFO | Scan started for directory: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting
+2026-09-15 07:29:04 | INFO | Deleted file: /home/pradhumnya-kalsait/Desktop/Linux-Programming-Cloud_Computing/Assignment_to_push/Assignment_7-Scripting/.bashrc
+2026-09-15 07:29:04 | INFO | Execution time (seconds): 0.020819
+2026-09-15 07:29:04 | INFO | Scanned files: 24
+2026-09-15 07:29:04 | INFO | Skipped files: 0
+2026-09-15 07:29:04 | INFO | Duplicate groups: 1
+2026-09-15 07:29:04 | INFO | Duplicates deleted: 1
